@@ -8,9 +8,12 @@
     
     <header class="main-header">
       <nav class="main-nav">
-        <a class="logo-device">
+        <a class="logo-device-header">
           <img src="http://placehold.it/150x100">
         </a>
+        <!--элемент для формы поиска-->
+        <a class="search-site">Поиск по сайту</a>
+
         <ul class="site-nav">
             <li><a class="site-nav-item" href="#">Каталог Товаров</a></li>
             <li><a class="site-nav-item" href="#">Доставка</li>
@@ -18,10 +21,9 @@
             <li><a class="site-nav-item" href="#">Контакты</a></li>
         </ul>
         <ul class="user-nav">
-          <li class="user-nav-item">Поиск по сайту</li>
-          <li class="user-nav-item">Войти</li>
-          <li class="user-nav-item">Сравнить</li> 
-          <li class="user-nav-item">Корзина</li>
+          <li class="user-nav-item"><a class="button-input" href="#">Войти</a></li>
+          <li class="user-nav-item"><a class="button-comparison" href="#">Сравнить</a></li> 
+          <li class="user-nav-item"><a class="button-busket" href="#">Корзина</a></li>
         </ul>
       </nav>
     </header>
@@ -29,38 +31,65 @@
     <main class="container">
       <h1 class="visually-hidden">Device Shop</h1>
         <div class="cotainer-info">
-          <section class="info-block">
-            <ul class="info-about-us">
-              <h2 class="info-about-us-h2">О нас</h2>
-              <li class="info-about-us-text">
-                <p class="text-gajit">Огромный выбор гаджетов не оствит равнодушным гика, который есть в каждом из нас</p>
-                <p class="text-delivery">Мы можем доставить ваш товар в самые отдаленные точки России. DEVICE работает
+          <section class="about-us">
+             <h2 class="about-us-title">О нас</h2>
+                <p class="about-us-text-gajit">Огромный выбор гаджетов не оствит равнодушным гика, который есть в каждом из нас</p>
+                <p class="about-us-text-delivery">Мы можем доставить ваш товар в самые отдаленные точки России. DEVICE работает
                             со многими транспортными компаниями:
                 </p>
-                <ul class="transport-companies">
-                  <li><a class="transport-companies-items" href="#"></a>Деловые Линии</li>
-                  <li><a class="transport-companies-items" href="#"></a>Автотрейдинг</li>
-                  <li><a class="transport-companies-items" href="#"></a>Желдорэкспедиция</li>
+                <ul class="about-us-transport-companies">
+                  <li class="about-us-transport-companies-items">Деловые Линии</li>
+                  <li class="about-us-transport-companies-items">Автотрейдинг</li>
+                  <li class="about-us-transport-companies-items">Желдорэкспедиция</li>
                 </ul>
-              </li>
-            </ul>
-            <a class="button about-us" href="#">подробнее о нас</a>
+              <a class="button about-us" href="#">подробнее о нас</a>
           </section>
-          <section class="contacts-text">
-            <h2 class="contacts-text-h2">Контакты</h2>
-              <p class="contacts-text-info">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете,
+          <section class="contacts">
+            <h2 class="contacts-title">Контакты</h2>
+              <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете,
                     проверить работоспосбность покупки на месте. Всякое бывает.</p>
               <a class="contacts-map" href="#">
                 <img src="http://placehold.it/150x100">
               </a>     
-              <a class="button contacts-text" href="#">Напишите нам</a>
+              <a class="button contacts-link" href="#">Напишите нам</a>
           </section>
       </div>
     </main>
     
     <footer class="main-footer">
-
+      <nav class="nav-footer">
+        <a class="logo-device-footer" href="#">
+          <img src="http://placehold.it/150x100">
+        </a>
+        <a class="logo-htmla" href="#">
+          <img src="http://placehold.it/150x100">
+        </a>
+        <p class="adress-device">г. Москва, ул. Строителей 15</p>
+        <p class="phone-device">тел. +7(495) 495-95-95</p>
+        <ul class="site-nav-footer">
+          <li><a class="site-nav-item-footer" href="#">Каталог Товаров</a></li>
+          <li><a class="site-nav-item-footer" href="#">Доставка</li>
+          <li><a class="site-nav-item-footer" href="#">Гарантия</a></li>
+        </ul>
+        <ul class="user-nav-footer">
+          <li><a class="user-nav-item-footer" href="#">Войти</a></li>
+          <li><a class="user-nav-item-footer" href="#">Сравнить</a></li>
+          <li><a class="user-nav-item-footer" href="#">Корзина</a></li>
+        </ul>
+      </nav>
+      <div class="fotter-social">
+        <ul class="fotter-social-buttons">
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <a class="logo-line">
+        <img src="http://placehold.it/150x100">
+      </a>
     </footer>
+
+      
 
   </body>
 </html>
