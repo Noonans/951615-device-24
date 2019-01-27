@@ -31,11 +31,31 @@
 
 <main class="container">
     <h1 class="monopods-title">Моноподы для селфи</h1>
-        <ul class="catalog-pages-list">
-                <li class="catalog-page"><a href="#">Главная</a></li>
-                <li class="catalog-page"><a href="#">Каталог</a></li>
-                <li class="catalog-current-page">Моноподы для селфи</li>
+    <div class="catalog">    
+        <ul class="breadcrumbs">
+                <li class="breadcrumbs-page"><a href="#">Главная</a></li>
+                <li class="breadcrumbs-page"><a href="#">Каталог</a></li>
+                <li class="breadcrumbs-current-page">Моноподы для селфи</li>
         </ul>
+
+        <section class="filter">
+                <h2 class="filter-title">Фильтр</h2>
+                <h3 class="color-title">Цвет</h3>
+                <ul class="filter-color">
+                    <li class="filter-color-on-off">Черный</li>
+                    <li class="filter-color-on-off">Белый</li>
+                    <li class="filter-color-on-off">Синий</li>
+                    <li class="filter-color-on-off">Красный</li>
+                    <li class="filter-color-on-off">Розовый</li>
+                </ul>
+                <h3 class="bt-title">Bluetooth</h3>
+                <ul class="filter-bt">
+                    <li class="filter-bt-on-off">есть</li>
+                    <li class="filter-bt-on-off">нет</li>
+                </ul>
+                <a class="button filter-show" href="#">Показать</a>
+        </section>
+
         <section class="monopods">
                 <h2 class="visually-hidden">Список моноподов</h2>
                 <ul class="catalog-list">
@@ -43,66 +63,46 @@
                             <a class="catalog-item-image">
                             <img src="http://placehold.it/150x100" alt="Любительская палка для селфи">
                             </a>
-                            <h3 class="catalog-item-title">Любительская палка селфи</h3>
+                            <h3 class="catalog-item-title"><a href="#">Любительская селфи-палка</a></h3>
                             <span class="catalog-item-price">500 руб.</span>
                     </li>
                     <li class="catalog-item">
-                            <a class="catalog-item-image">
+                            <a class="catalog-item-name">
                                 <img src="http://placehold.it/150x100" alt="Профессиональня селфи-палка">
                             </a>
-                            <h3 class="catalog-item-title">Профессиональная селфи-палка</h3>
+                            <h3 class="catalog-item-title"><a href="#">Профессиональная селфи-палка</a></h3>
                             <span class="catalog-item-price">1500 руб.</span>
                     </li>
                     <li class="catalog-item">
                             <a class="catalog-item-image">
                                 <img src="http://placehold.it/150x100" alt="Непотопляемая селфи-палка">
                             </a>
-                            <h3 class="catalog-item-title">Непотопляемая селфи-палка</h3>
+                            <h3 class="catalog-item-title"><a href="#">Непотопляемая селфи-палка</a></h3>
                             <span class="catalog-item-price">2500 руб.</span>
                     </li>
                     <li class="catalog-item">
                             <a class="catalog-item-image">
-                                <img src="http://placehold.it/150x100" alt="селфи-палка -следуй за мной-">
+                                <img src="http://placehold.it/150x100" alt="селфи-палка-следуй за мной">
                             </a>
-                            <h3 class="catalog-item-title">Селфи-палка "Следуй за мной"</h3>
+                            <h3 class="catalog-item-title"><a href="#">Селфи-палка "Следуй за мной"</a></h3>
                             <span class="catalog-item-price">4900 руб.</span>
                     </li>
                 </ul>
-        </section>
-
-        <section class="filter">
-            <h2 class="filter-title">Фильтр</h2>
-            <h3 class="color-title">Цвет</h3>
-            <ul class="filter-color">
-                <li class="filter-color-on-off">Черный</li>
-                <li class="filter-color-on-off">Белый</li>
-                <li class="filter-color-on-off">Синий</li>
-                <li class="filter-color-on-off">Красный</li>
-                <li class="filter-color-on-off">Розовый</li>
-            </ul>
-            <h3 class="bt-title">Bluetooth</h3>
-            <ul class="filter-bt">
-                <li class="filter-bt-on-off">есть</li>
-                <li class="filter-bt-on-off">нет</li>
-            </ul>
-            <a class="button filter-show" href="#">Показать</a>
         </section>
     </div>
 </main>
 
 <footer class="main-footer">
     <div class="footer-header">
-        <a class="logo-footer" href="#">
-            <img alt="лого девайс" src="http://placehold.it/150x100">
-        </a>
-        <ul class="user-nav-footer">
+        <a class="logo-footer" href="#">Device</a>
+            <ul class="user-nav-footer">
             <li class="user-nav-footer-item"><a href="#">Войти</a></li>
             <li class="user-nav-footer-item"><a href="#">Сравнить</a></li>
             <li class="user-nav-footer-item"><a href="#">Корзина</a></li>
         </ul>
     </div>
     <div class="footer-main">
-        <p class="footer-adress">г. Москва, ул. Строителей 15</p>
+        <p class="footer-address">г. Москва, ул. Строителей 15</p>
         <p class="footer-phone">тел. +7(495) 495-95-95</p>
         <ul class="site-nav-footer">
             <li class="site-nav-footer-item"><a href="#">Каталог Товаров</a></li>
