@@ -38,7 +38,14 @@
         </ul>
 
         <section class="filter">
+            
+                
                 <h2 class="filter-title">Фильтр</h2>
+<!-- секция стоимость? как выполнить это колесико пока еще не придумал)) -->
+            <section class="filter-cost">
+                <h3 class="cost-title">Стоимость</h3>
+            </section>
+                <!-- Здесь будет форма -->
                 <h3 class="color-title">Цвет</h3>
                 <ul class="filter-color">
                     <li class="filter-color-on-off">Черный</li>
@@ -53,6 +60,15 @@
                     <li class="filter-bt-on-off">нет</li>
                 </ul>
                 <a class="button filter-show" href="#">Показать</a>
+        </section>
+        <!-- сортировка товара , стрелочки в конце форма или кнопочки? -->
+        <section class="catalog-sorting">
+            <h3 class="sorting-title">Сортировка:</h3>
+                <ul class="sorting-list">
+                    <li class="sorting-item">По цене</li>
+                    <li class="sorting-item">По типу</li>
+                    <li class="sorting-item">По популярности</li>
+                </ul>
         </section>
 
         <section class="monopods">
@@ -95,6 +111,16 @@
                             <span class="catalog-item-price">4900 руб.</span>
                     </li>
                 </ul>
+        </section>
+        <!-- пагинация каталога(новое слово выучил)) -->
+        <section class="catalog-pagination">
+                <a class="button back-btn" href="#">Назад</a>
+                <ul class="pagination-list">
+                    <li class="pagination-item pagination-item-current"><a>1</a></li>
+                    <li class="pagination-item"><a href="#">2</a></li>
+                    <li class="pagination-item"><a href="#">3</a></li>
+                </ul>
+                <a class="button frw-btn" href="#">Вперед</a>
         </section>
     </div>
 </main>
